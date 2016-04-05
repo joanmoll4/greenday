@@ -1,0 +1,163 @@
+body {
+	margin: 0;
+	padding: 0;
+	
+	background-color: #1CCE1C;
+
+}
+#wrapper {
+	position: relative;
+	text-align: left;
+	width: 780px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 1em;
+	background-color:#FFF;
+}
+
+#wrapper2 {
+	background-image: url(./img/sidebar.gif);
+	background-repeat:repeat-y;
+	margin: 0 10px 0 10px;
+	
+	
+}
+
+header {
+	background-image: url(img/green_day2.png);
+	background-repeat:no-repeat;
+	background-position: center;
+    height:140px;
+    position:relative;
+}
+
+main {
+	margin: 0 auto;
+	float:right;
+    width: 605px;
+	padding: 0 10px 0 0;
+}
+
+main h2 {
+	font-size: 120%;
+	color: #1CCE1C;
+	background-color: transparent;
+	margin: 0em;
+	padding: 1.4em 0 0 0;
+}
+
+main p {
+	font-size: 80%;
+	line-height: 1.6;
+}
+
+
+
+nav {
+	float:left;
+	width: 105px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 3em 0 0 0;
+	padding: 0;
+	border: none;
+}
+
+nav li {
+	font-size: 85%;
+	width:80%;
+}
+
+nav a:link, nav a:visited {
+	color: #555555;
+    background-color:transparent;
+    display:block;
+    padding: 1em 0 0 10px;
+    text-decoration:none;
+	min-height: 40px;
+}
+
+
+ nav .cur {
+	color:white;
+	display:block;
+    padding: 1em 0 0 10px;
+	background-color: #1CCE1C;
+	border-radius: 0 30px 30px 0;
+}
+
+
+
+
+nav a:hover {
+	background-color:#1CCE1C;
+	color: white;
+	border-radius: 0 50px 50px 0;
+}
+
+
+
+
+
+
+
+footer {
+	clear:both;
+	font-size: 80%;
+	padding: 1em 0 1em 0;
+    color: #999;
+    background-color: transparent;
+}
+
+footer a {
+	float: right;
+}
+
+#btm {
+	
+	background-image: url(./img/shadow-bottom.jpg);
+	background-repeat: no-repeat;
+	display: block;
+	height: 13px;
+}
+
+div.thumb {
+background-position: center;
+position:relative;
+float: left;
+width:250px;
+height:150px;
+padding: 0 10px 30px 0;
+margin: 0 10px 35px 0;
+text-align: center;
+}
+
+
+
+/*formularis*/
+
+
+form fieldset {
+margin: 30px 10px 20px 0;
+-moz-box-shadow: -11px 12px 26px #000000;
+-webkit-box-shadow: -11px 12px 26px #000000;
+box-shadow: -11px 12px 26px #000000;
+
+}
+
+form fieldset div label, form fieldset div input, form fieldset div select, .btn
+{
+margin: 10px auto;
+}
+
+input.nombre{
+width:7%;
+}
+
+input[type="text"], select {
+	border:1px solid #AAA;
+	padding:3px;
+}
+
